@@ -1,0 +1,781 @@
+[2024-10-15 09:46:59] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-10-15 09:46:59] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-10-15 09:46:59] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-10-15 09:47:00] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-10-15 09:47:00] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-10-15 09:47:00] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-10-15 09:47:00] [class-ss-setup-task.php:33] Creating archive directory: E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619\
+[2024-10-15 09:47:00] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/dugas/
+[2024-10-15 09:47:00] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-10-15 09:47:00] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-15 09:47:00] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-15 09:47:00] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-10-15 09:47:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/
+[2024-10-15 09:47:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-10-15 09:47:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a14bde39-KuU6RQ.tmp
+[2024-10-15 09:47:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/?simply_static_page=1
+[2024-10-15 09:47:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/?simply_static_page=1
+[2024-10-15 09:47:02] [class-ss-url-fetcher.php:103] Filesize: 151145 bytes
+[2024-10-15 09:47:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-15 09:47:02] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-10-15 09:47:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a14bde39-KuU6RQ.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/index.html
+[2024-10-15 09:47:02] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:03] [class-ss-fetch-urls-task.php:159] Adding 46 URLs to the queue
+[2024-10-15 09:47:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:03] [class-ss-page.php:119] Checking Content Identical:5ebf75cd97f6485d578c06bc783975728316a933===. Value: FALSE
+[2024-10-15 09:47:03] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-10-15 09:47:03] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-15 09:47:03] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-15 09:47:03] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-15 09:47:03] [class-ss-fetch-urls-task.php:69] Total pages: 46; Pages remaining: 45
+[2024-10-15 09:47:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/about/
+[2024-10-15 09:47:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 46
+[2024-10-15 09:47:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a17ead0e-tD35ey.tmp
+[2024-10-15 09:47:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/about/?simply_static_page=2
+[2024-10-15 09:47:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/about/?simply_static_page=2
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:103] Filesize: 128626 bytes
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:233] New filename for static page: /about/index.html
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a17ead0e-tD35ey.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/about/index.html
+[2024-10-15 09:47:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:04] [class-ss-page.php:119] Checking Content Identical:7853bc4b27ff5576344394864f7fa412c848f621===. Value: FALSE
+[2024-10-15 09:47:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/services/
+[2024-10-15 09:47:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 46
+[2024-10-15 09:47:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a183d30e-UIJSWA.tmp
+[2024-10-15 09:47:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/services/?simply_static_page=3
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/services/?simply_static_page=3
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:103] Filesize: 136522 bytes
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:233] New filename for static page: /services/index.html
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a183d30e-UIJSWA.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/services/index.html
+[2024-10-15 09:47:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:04] [class-ss-page.php:119] Checking Content Identical:3a112489175ff13f624f4a4f707d07f559f1bca7===. Value: FALSE
+[2024-10-15 09:47:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/contact/
+[2024-10-15 09:47:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 46
+[2024-10-15 09:47:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a18966a6-SgKb9P.tmp
+[2024-10-15 09:47:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/contact/?simply_static_page=4
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/contact/?simply_static_page=4
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:103] Filesize: 131889 bytes
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:233] New filename for static page: /contact/index.html
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a18966a6-SgKb9P.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/contact/index.html
+[2024-10-15 09:47:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:04] [class-ss-page.php:119] Checking Content Identical:a66dea6fe1375dbea219d2a46a3878814138e5b9===. Value: FALSE
+[2024-10-15 09:47:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/uploads/2021/07/Group-15-1.svg
+[2024-10-15 09:47:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 46
+[2024-10-15 09:47:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a18e2118-bcRHzv.tmp
+[2024-10-15 09:47:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/uploads/2021/07/Group-15-1.svg?simply_static_page=5
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/uploads/2021/07/Group-15-1.svg?simply_static_page=5
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:103] Filesize: 6620 bytes
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/07/Group-15-1.svg
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a18e2118-bcRHzv.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/uploads/2021/07/Group-15-1.svg
+[2024-10-15 09:47:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:04] [class-ss-page.php:119] Checking Content Identical:f4598e096200b16f85e5d2f776b7fb791672d0bc===. Value: FALSE
+[2024-10-15 09:47:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/uploads/2022/02/logoipsum-logo-28-10-1.png
+[2024-10-15 09:47:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 46
+[2024-10-15 09:47:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a18ec386-uZfUY1.tmp
+[2024-10-15 09:47:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/uploads/2022/02/logoipsum-logo-28-10-1.png?simply_static_page=6
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/uploads/2022/02/logoipsum-logo-28-10-1.png?simply_static_page=6
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:103] Filesize: 1768 bytes
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2022/02/logoipsum-logo-28-10-1.png
+[2024-10-15 09:47:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a18ec386-uZfUY1.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/uploads/2022/02/logoipsum-logo-28-10-1.png
+[2024-10-15 09:47:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:04] [class-ss-page.php:119] Checking Content Identical:2e69db4f8bdc629305cf777d54439b1325c413a5===. Value: FALSE
+[2024-10-15 09:47:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/uploads/2022/02/logoipsum-logo-25-10-1.png
+[2024-10-15 09:47:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 46
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a190132b-t9Gvua.tmp
+[2024-10-15 09:47:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/uploads/2022/02/logoipsum-logo-25-10-1.png?simply_static_page=7
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/uploads/2022/02/logoipsum-logo-25-10-1.png?simply_static_page=7
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:103] Filesize: 1724 bytes
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2022/02/logoipsum-logo-25-10-1.png
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a190132b-t9Gvua.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/uploads/2022/02/logoipsum-logo-25-10-1.png
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:05] [class-ss-page.php:119] Checking Content Identical:c7312e1a69cdff9d18d4e8d3f7edc9e2943f25dd===. Value: FALSE
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/uploads/2022/02/logoipsum-logo-27-10-1.png
+[2024-10-15 09:47:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 46
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a190a215-zkUgpO.tmp
+[2024-10-15 09:47:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/uploads/2022/02/logoipsum-logo-27-10-1.png?simply_static_page=8
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/uploads/2022/02/logoipsum-logo-27-10-1.png?simply_static_page=8
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:103] Filesize: 2275 bytes
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2022/02/logoipsum-logo-27-10-1.png
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a190a215-zkUgpO.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/uploads/2022/02/logoipsum-logo-27-10-1.png
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:05] [class-ss-page.php:119] Checking Content Identical:e539eaf642f08764a78ac07aefac24c268009f26===. Value: FALSE
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/uploads/2022/02/logoipsum-logo-30-10-1.png
+[2024-10-15 09:47:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 46
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a19157f8-8uH0og.tmp
+[2024-10-15 09:47:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/uploads/2022/02/logoipsum-logo-30-10-1.png?simply_static_page=9
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/uploads/2022/02/logoipsum-logo-30-10-1.png?simply_static_page=9
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:103] Filesize: 2510 bytes
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2022/02/logoipsum-logo-30-10-1.png
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a19157f8-8uH0og.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/uploads/2022/02/logoipsum-logo-30-10-1.png
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:05] [class-ss-page.php:119] Checking Content Identical:5b223732f76c5760d18c5b4f3d0ecaf9e8c22c37===. Value: FALSE
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/uploads/2021/07/client-1-1.png
+[2024-10-15 09:47:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 46
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a191e48e-oC7g8P.tmp
+[2024-10-15 09:47:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/uploads/2021/07/client-1-1.png?simply_static_page=10
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/uploads/2021/07/client-1-1.png?simply_static_page=10
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:103] Filesize: 18919 bytes
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/07/client-1-1.png
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a191e48e-oC7g8P.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/uploads/2021/07/client-1-1.png
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:05] [class-ss-page.php:119] Checking Content Identical:2fc329a7d53b6359818ad216779929ab91273844===. Value: FALSE
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/uploads/2021/07/client-3-1.png
+[2024-10-15 09:47:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 46
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a19274fc-1pLwoi.tmp
+[2024-10-15 09:47:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/uploads/2021/07/client-3-1.png?simply_static_page=11
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/uploads/2021/07/client-3-1.png?simply_static_page=11
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:103] Filesize: 17540 bytes
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/07/client-3-1.png
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a19274fc-1pLwoi.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/uploads/2021/07/client-3-1.png
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:05] [class-ss-page.php:119] Checking Content Identical:ac51a98f1eb40dc61b311601233552d20895df11===. Value: FALSE
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/uploads/2021/07/client-2-1.png
+[2024-10-15 09:47:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 46
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a192fece-NLlYL7.tmp
+[2024-10-15 09:47:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/uploads/2021/07/client-2-1.png?simply_static_page=12
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/uploads/2021/07/client-2-1.png?simply_static_page=12
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:103] Filesize: 18914 bytes
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/07/client-2-1.png
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a192fece-NLlYL7.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/uploads/2021/07/client-2-1.png
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:05] [class-ss-page.php:119] Checking Content Identical:c1480f953bb757918439e73f95cc048e4bc536bb===. Value: FALSE
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/uploads/2021/07/client-4-1.png
+[2024-10-15 09:47:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 46
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1938f85-smMy4V.tmp
+[2024-10-15 09:47:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/uploads/2021/07/client-4-1.png?simply_static_page=13
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/uploads/2021/07/client-4-1.png?simply_static_page=13
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:103] Filesize: 20658 bytes
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/07/client-4-1.png
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1938f85-smMy4V.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/uploads/2021/07/client-4-1.png
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:05] [class-ss-page.php:119] Checking Content Identical:6da6889e5352698363e787708e56c3d3a134434c===. Value: FALSE
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-includes/js/jquery/jquery.min.js
+[2024-10-15 09:47:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 46
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1947a31-YE6XGN.tmp
+[2024-10-15 09:47:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-includes/js/jquery/jquery.min.js?simply_static_page=14
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-includes/js/jquery/jquery.min.js?simply_static_page=14
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:103] Filesize: 87555 bytes
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1947a31-YE6XGN.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-includes/js/jquery/jquery.min.js
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:05] [class-ss-page.php:119] Checking Content Identical:f1283d45dc3e33b703b48c9a9d9495b3b49fd2a1===. Value: FALSE
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-15 09:47:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 46
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1962925-MZdTs2.tmp
+[2024-10-15 09:47:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=15
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=15
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:103] Filesize: 13579 bytes
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1962925-MZdTs2.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:05] [class-ss-page.php:119] Checking Content Identical:2b3f380f212c8c64e79db1f47fa25c114afe6fbb===. Value: FALSE
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2024-10-15 09:47:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 46
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1971501-DcWGGP.tmp
+[2024-10-15 09:47:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/themes/astra/assets/js/minified/frontend.min.js?simply_static_page=16
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/themes/astra/assets/js/minified/frontend.min.js?simply_static_page=16
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:103] Filesize: 23659 bytes
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1971501-DcWGGP.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:05] [class-ss-page.php:119] Checking Content Identical:3576353c10ec109664743f318dc8a33b49667781===. Value: FALSE
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-includes/js/dist/dom-ready.min.js
+[2024-10-15 09:47:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 46
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a19822ac-aDVimD.tmp
+[2024-10-15 09:47:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-includes/js/dist/dom-ready.min.js?simply_static_page=17
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-includes/js/dist/dom-ready.min.js?simply_static_page=17
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:103] Filesize: 458 bytes
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/dom-ready.min.js
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a19822ac-aDVimD.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-includes/js/dist/dom-ready.min.js
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:05] [class-ss-page.php:119] Checking Content Identical:ae9bf8529d4b118d5b9b6d8844f126f9feb801f7===. Value: FALSE
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js
+[2024-10-15 09:47:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 46
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a198c2c7-0uAxmz.tmp
+[2024-10-15 09:47:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js?simply_static_page=18
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js?simply_static_page=18
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:103] Filesize: 6581 bytes
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a198c2c7-0uAxmz.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:05] [class-ss-page.php:119] Checking Content Identical:fad4e52c06b86b8df6a4220707aad9c01ff74f7e===. Value: FALSE
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-block-positioning.min.js
+[2024-10-15 09:47:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 46
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a199d0fb-IxWoYg.tmp
+[2024-10-15 09:47:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-block-positioning.min.js?simply_static_page=19
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-block-positioning.min.js?simply_static_page=19
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:103] Filesize: 4450 bytes
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-block-positioning.min.js
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a199d0fb-IxWoYg.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-block-positioning.min.js
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:05] [class-ss-page.php:119] Checking Content Identical:0292349ba263236243a33fb7fdded5527e17bf6a===. Value: FALSE
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/uagb-button-child.min.js
+[2024-10-15 09:47:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 46
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a19aa29b-7nTsbd.tmp
+[2024-10-15 09:47:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/uagb-button-child.min.js?simply_static_page=20
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/uagb-button-child.min.js?simply_static_page=20
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:103] Filesize: 421 bytes
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/uagb-button-child.min.js
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a19aa29b-7nTsbd.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/uagb-button-child.min.js
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:05] [class-ss-page.php:119] Checking Content Identical:9e1f77b7387f8f489b4cc9793be930b93b237f48===. Value: FALSE
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/image-gallery.min.js
+[2024-10-15 09:47:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 46
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a19b58b7-IrbeyX.tmp
+[2024-10-15 09:47:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/image-gallery.min.js?simply_static_page=21
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/image-gallery.min.js?simply_static_page=21
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:103] Filesize: 11098 bytes
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/image-gallery.min.js
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a19b58b7-IrbeyX.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/image-gallery.min.js
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:05] [class-ss-page.php:119] Checking Content Identical:bcb9d92586105c6eee1f0ce18b91c81528835c2b===. Value: FALSE
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/isotope.min.js
+[2024-10-15 09:47:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 46
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a19c47a2-ju4dO3.tmp
+[2024-10-15 09:47:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/isotope.min.js?simply_static_page=22
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/isotope.min.js?simply_static_page=22
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:103] Filesize: 35001 bytes
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/isotope.min.js
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a19c47a2-ju4dO3.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/isotope.min.js
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:05] [class-ss-page.php:119] Checking Content Identical:fe0dc71f5fa95aec4d03c87481411d26f94dd6c6===. Value: FALSE
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/imagesloaded.min.js
+[2024-10-15 09:47:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 46
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a19d7e6e-wenEdJ.tmp
+[2024-10-15 09:47:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/imagesloaded.min.js?simply_static_page=23
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/imagesloaded.min.js?simply_static_page=23
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:103] Filesize: 7315 bytes
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/imagesloaded.min.js
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a19d7e6e-wenEdJ.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/imagesloaded.min.js
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:05] [class-ss-page.php:119] Checking Content Identical:2425b281cd60dfcb49fd23aa5519a58e84ec4254===. Value: FALSE
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/slick.min.js
+[2024-10-15 09:47:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 46
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a19e3c17-Za5s5Z.tmp
+[2024-10-15 09:47:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/slick.min.js?simply_static_page=24
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/slick.min.js?simply_static_page=24
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:103] Filesize: 43902 bytes
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/slick.min.js
+[2024-10-15 09:47:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a19e3c17-Za5s5Z.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/slick.min.js
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:05] [class-ss-page.php:119] Checking Content Identical:844d7de9dd7e5af99a499e5acb4cb08524624ee7===. Value: FALSE
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/swiper-bundle.min.js
+[2024-10-15 09:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 46
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1a01848-T6hpz1.tmp
+[2024-10-15 09:47:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/swiper-bundle.min.js?simply_static_page=25
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/swiper-bundle.min.js?simply_static_page=25
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:103] Filesize: 143673 bytes
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/swiper-bundle.min.js
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1a01848-T6hpz1.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/swiper-bundle.min.js
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:06] [class-ss-page.php:119] Checking Content Identical:0dac4f8948dc6d8544f5ae7697718a2ee4baca9d===. Value: FALSE
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-counter.min.js
+[2024-10-15 09:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 46
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1a1a877-pfhSLs.tmp
+[2024-10-15 09:47:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-counter.min.js?simply_static_page=26
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-counter.min.js?simply_static_page=26
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:103] Filesize: 3138 bytes
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-counter.min.js
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1a1a877-pfhSLs.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-counter.min.js
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:06] [class-ss-page.php:119] Checking Content Identical:c1e0da8168e359aedf2c863a79c179adfec6259b===. Value: FALSE
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/countUp.min.js
+[2024-10-15 09:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 46
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1a24b01-wRY8us.tmp
+[2024-10-15 09:47:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/countUp.min.js?simply_static_page=27
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/countUp.min.js?simply_static_page=27
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:103] Filesize: 4882 bytes
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/countUp.min.js
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1a24b01-wRY8us.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/countUp.min.js
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:06] [class-ss-page.php:119] Checking Content Identical:e27a4f715fa53c0027e6226895ac3fbf3642ec0d===. Value: FALSE
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/uploads/uag-plugin/assets/1000/uag-js-885.js
+[2024-10-15 09:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 46
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1a3387b-pUljJA.tmp
+[2024-10-15 09:47:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/uploads/uag-plugin/assets/1000/uag-js-885.js?simply_static_page=28
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/uploads/uag-plugin/assets/1000/uag-js-885.js?simply_static_page=28
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:103] Filesize: 2984 bytes
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/uag-plugin/assets/1000/uag-js-885.js
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1a3387b-pUljJA.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/uploads/uag-plugin/assets/1000/uag-js-885.js
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:06] [class-ss-page.php:119] Checking Content Identical:437a014f2d1ed6a5df2405b25d106067433dccb4===. Value: FALSE
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/uploads/2021/07/about-us11-1.png
+[2024-10-15 09:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 46
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1a3d6ad-Qe5zRO.tmp
+[2024-10-15 09:47:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/uploads/2021/07/about-us11-1.png?simply_static_page=29
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/uploads/2021/07/about-us11-1.png?simply_static_page=29
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:103] Filesize: 107806 bytes
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/07/about-us11-1.png
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1a3d6ad-Qe5zRO.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/uploads/2021/07/about-us11-1.png
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:06] [class-ss-page.php:119] Checking Content Identical:28990955ce8fe3ec7a9c88126b30a1f339ee21df===. Value: FALSE
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/uploads/2021/07/pic-66-1.png
+[2024-10-15 09:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 46
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1a4628b-YllTjp.tmp
+[2024-10-15 09:47:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/uploads/2021/07/pic-66-1.png?simply_static_page=30
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/uploads/2021/07/pic-66-1.png?simply_static_page=30
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:103] Filesize: 543799 bytes
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/07/pic-66-1.png
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1a4628b-YllTjp.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/uploads/2021/07/pic-66-1.png
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:06] [class-ss-page.php:119] Checking Content Identical:ef842ba212d6ba30cefbfcfa4cf112be08bfb858===. Value: FALSE
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/uploads/2021/07/pic-55-1.png
+[2024-10-15 09:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 46
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1a537d4-qnLHrQ.tmp
+[2024-10-15 09:47:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/uploads/2021/07/pic-55-1.png?simply_static_page=31
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/uploads/2021/07/pic-55-1.png?simply_static_page=31
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:103] Filesize: 240311 bytes
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/07/pic-55-1.png
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1a537d4-qnLHrQ.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/uploads/2021/07/pic-55-1.png
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:06] [class-ss-page.php:119] Checking Content Identical:b5c54d73cbd63432e2edc53e4bf264e7d24392a6===. Value: FALSE
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/uploads/2021/07/pic-33-1.png
+[2024-10-15 09:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 46
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1a5d2a0-ev8C4W.tmp
+[2024-10-15 09:47:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/uploads/2021/07/pic-33-1.png?simply_static_page=32
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/uploads/2021/07/pic-33-1.png?simply_static_page=32
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:103] Filesize: 204914 bytes
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/07/pic-33-1.png
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1a5d2a0-ev8C4W.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/uploads/2021/07/pic-33-1.png
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:06] [class-ss-page.php:119] Checking Content Identical:1113cc231d78e14ac9aef63437ba68848a6a979e===. Value: FALSE
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/uploads/2021/07/pic-22-1.png
+[2024-10-15 09:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 46
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1a66361-S9k7XA.tmp
+[2024-10-15 09:47:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/uploads/2021/07/pic-22-1.png?simply_static_page=33
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/uploads/2021/07/pic-22-1.png?simply_static_page=33
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:103] Filesize: 148198 bytes
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/07/pic-22-1.png
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1a66361-S9k7XA.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/uploads/2021/07/pic-22-1.png
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:06] [class-ss-page.php:119] Checking Content Identical:93ef70e5d33cb401f5d24ef621526c8e7dcbdf34===. Value: FALSE
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/uploads/2021/07/pic-11-1.png
+[2024-10-15 09:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 46
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1a6eff0-TMXBXl.tmp
+[2024-10-15 09:47:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/uploads/2021/07/pic-11-1.png?simply_static_page=34
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/uploads/2021/07/pic-11-1.png?simply_static_page=34
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:103] Filesize: 361665 bytes
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/07/pic-11-1.png
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1a6eff0-TMXBXl.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/uploads/2021/07/pic-11-1.png
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:06] [class-ss-page.php:119] Checking Content Identical:57a032f20025e0ac58b4b57b2965ef4b752c163f===. Value: FALSE
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/feed/
+[2024-10-15 09:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 46
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1a78ea6-GprXNn.tmp
+[2024-10-15 09:47:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/feed/?simply_static_page=35
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/feed/?simply_static_page=35
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:103] Filesize: 351 bytes
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.html
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1a78ea6-GprXNn.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/feed/index.html
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:159] Adding 1 URLs to the queue
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:06] [class-ss-page.php:119] Checking Content Identical:dc2495d1a6ff5f04905892da2adc05e19356a712===. Value: FALSE
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/comments/feed/
+[2024-10-15 09:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 46
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1a8706c-JuXjqm.tmp
+[2024-10-15 09:47:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/comments/feed/?simply_static_page=36
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/comments/feed/?simply_static_page=36
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:103] Filesize: 1428 bytes
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.html
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1a8706c-JuXjqm.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/comments/feed/index.html
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:06] [class-ss-page.php:119] Checking Content Identical:0a68ec91c392e657bff78eb1f07642c04dff0552===. Value: FALSE
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/themes/astra/assets/css/minified/main.min.css
+[2024-10-15 09:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 46
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1a93c8f-Y6Y25Z.tmp
+[2024-10-15 09:47:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/themes/astra/assets/css/minified/main.min.css?simply_static_page=37
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/themes/astra/assets/css/minified/main.min.css?simply_static_page=37
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:103] Filesize: 43156 bytes
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/astra/assets/css/minified/main.min.css
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1a93c8f-Y6Y25Z.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/themes/astra/assets/css/minified/main.min.css
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:06] [class-ss-page.php:119] Checking Content Identical:00e7b7fddcbd4a83b0b89286c24dc4ebe7ba43c6===. Value: FALSE
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-includes/css/dist/block-library/style.min.css
+[2024-10-15 09:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 46
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1aa245b-2npmXF.tmp
+[2024-10-15 09:47:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-includes/css/dist/block-library/style.min.css?simply_static_page=38
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-includes/css/dist/block-library/style.min.css?simply_static_page=38
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:103] Filesize: 112437 bytes
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1aa245b-2npmXF.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-includes/css/dist/block-library/style.min.css
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:06] [class-ss-page.php:119] Checking Content Identical:5a97376465e75ea223102550aaaef51d878890f8===. Value: FALSE
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css
+[2024-10-15 09:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 46
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1ab1747-nrauVe.tmp
+[2024-10-15 09:47:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css?simply_static_page=39
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css?simply_static_page=39
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:103] Filesize: 335 bytes
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1ab1747-nrauVe.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:06] [class-ss-page.php:119] Checking Content Identical:f40aef07a4afcbe679aaff6f3a8cef6a20cb1fe6===. Value: FALSE
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/slick.min.css
+[2024-10-15 09:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 46
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1abed3b-BLLcuK.tmp
+[2024-10-15 09:47:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/slick.min.css?simply_static_page=40
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/slick.min.css?simply_static_page=40
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:103] Filesize: 4023 bytes
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/slick.min.css
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1abed3b-BLLcuK.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/slick.min.css
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:06] [class-ss-page.php:119] Checking Content Identical:70d0e9c0b035df65ab949ca82c50397a340e1fde===. Value: FALSE
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/swiper-bundle.min.css
+[2024-10-15 09:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 46
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1ac80cf-gkceAr.tmp
+[2024-10-15 09:47:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/swiper-bundle.min.css?simply_static_page=41
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/swiper-bundle.min.css?simply_static_page=41
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:103] Filesize: 16483 bytes
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/swiper-bundle.min.css
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1ac80cf-gkceAr.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/swiper-bundle.min.css
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:06] [class-ss-page.php:119] Checking Content Identical:7940b1751bad6290b3fe9d7cbc13ecbe23878933===. Value: FALSE
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/uploads/uag-plugin/assets/1000/uag-css-885.css
+[2024-10-15 09:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 46
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1added7-X4pbRd.tmp
+[2024-10-15 09:47:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/uploads/uag-plugin/assets/1000/uag-css-885.css?simply_static_page=42
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/uploads/uag-plugin/assets/1000/uag-css-885.css?simply_static_page=42
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:103] Filesize: 293171 bytes
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/uag-plugin/assets/1000/uag-css-885.css
+[2024-10-15 09:47:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1added7-X4pbRd.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/uploads/uag-plugin/assets/1000/uag-css-885.css
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:06] [class-ss-page.php:119] Checking Content Identical:8a5cbd0a9328c5c30cf4b23347bbf020b19a56ba===. Value: FALSE
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-json/
+[2024-10-15 09:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 46
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/dugas/wp-json/
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-json/wp/v2/pages/885
+[2024-10-15 09:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 46
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/dugas/wp-json/wp/v2/pages/885
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/xmlrpc.php
+[2024-10-15 09:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 46
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/dugas/xmlrpc.php
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-json/oembed/1.0/embed
+[2024-10-15 09:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 46
+[2024-10-15 09:47:06] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/dugas/wp-json/oembed/1.0/embed
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-15 09:47:07] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 46 pages/files
+[2024-10-15 09:47:07] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-15 09:47:07] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-15 09:47:07] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:69] Total pages: 51; Pages remaining: 5
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/feed/index.xml
+[2024-10-15 09:47:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 51
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1b03db5-mhPesF.tmp
+[2024-10-15 09:47:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/feed/index.xml?simply_static_page=47
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/feed/index.xml?simply_static_page=47
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:103] Filesize: 1747 bytes
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1b03db5-mhPesF.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/feed/index.xml
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:07] [class-ss-page.php:119] Checking Content Identical:df6d49da1c67dd099ce0062648dbc3df3ac757f8===. Value: FALSE
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/uploads/2021/07/hero-112-1.jpg
+[2024-10-15 09:47:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 51
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1b0d2a2-9PbDqE.tmp
+[2024-10-15 09:47:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/uploads/2021/07/hero-112-1.jpg?simply_static_page=48
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/uploads/2021/07/hero-112-1.jpg?simply_static_page=48
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:103] Filesize: 145169 bytes
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/07/hero-112-1.jpg
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1b0d2a2-9PbDqE.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/uploads/2021/07/hero-112-1.jpg
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:07] [class-ss-page.php:119] Checking Content Identical:dafbf5a274e1f99e35fcc39f89e456c821e82d1a===. Value: FALSE
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/uploads/2021/07/how-we-work-1.jpg
+[2024-10-15 09:47:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 51
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1b15d50-0xPb8W.tmp
+[2024-10-15 09:47:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/uploads/2021/07/how-we-work-1.jpg?simply_static_page=49
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/uploads/2021/07/how-we-work-1.jpg?simply_static_page=49
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:103] Filesize: 71695 bytes
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/07/how-we-work-1.jpg
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1b15d50-0xPb8W.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/uploads/2021/07/how-we-work-1.jpg
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:07] [class-ss-page.php:119] Checking Content Identical:18d61453f6b1c8abc7da8758863776c60d2a2150===. Value: FALSE
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/uploads/2022/02/snow-fall-12-1.png
+[2024-10-15 09:47:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 51
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1b1dde7-ZHQWh7.tmp
+[2024-10-15 09:47:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/uploads/2022/02/snow-fall-12-1.png?simply_static_page=50
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/uploads/2022/02/snow-fall-12-1.png?simply_static_page=50
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:103] Filesize: 3626 bytes
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2022/02/snow-fall-12-1.png
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1b1dde7-ZHQWh7.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/uploads/2022/02/snow-fall-12-1.png
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:07] [class-ss-page.php:119] Checking Content Identical:069849620a0f8b2bee6d449379c6d16610891957===. Value: FALSE
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dugas/wp-content/uploads/2021/07/last-picture-1.jpg
+[2024-10-15 09:47:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 51
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1b25f44-YVuZAL.tmp
+[2024-10-15 09:47:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/wp-content/uploads/2021/07/last-picture-1.jpg?simply_static_page=51
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/wp-content/uploads/2021/07/last-picture-1.jpg?simply_static_page=51
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:103] Filesize: 145665 bytes
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/07/last-picture-1.jpg
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1b25f44-YVuZAL.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619/wp-content/uploads/2021/07/last-picture-1.jpg
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-15 09:47:07] [class-ss-page.php:119] Checking Content Identical:5096dca978776eaa0d81896f9a0149b371568528===. Value: FALSE
+[2024-10-15 09:47:07] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 46 of 51 pages/files
+[2024-10-15 09:47:07] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-15 09:47:07] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-15 09:47:07] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-15 09:47:07] [class-ss-fetch-urls-task.php:69] Total pages: 51; Pages remaining: 0
+[2024-10-15 09:47:07] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 51 of 51 pages/files
+[2024-10-15 09:47:07] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-10-15 09:47:07] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-10-15 09:47:07] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-10-15 09:47:07] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670e3a1b32ac3-pRagCW.tmp
+[2024-10-15 09:47:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dugas/1728985628?simply_static_page=0
+[2024-10-15 09:47:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dugas/1728985628?simply_static_page=0
+[2024-10-15 09:47:08] [class-ss-url-fetcher.php:103] Filesize: 106579 bytes
+[2024-10-15 09:47:08] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-10-15 09:47:08] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-10-15 09:47:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670e3a1b32ac3-pRagCW.tmp to E:\xampp\htdocs\dugas/wp-content/uploads\simply-static\temp-files/simply-static-1-1728985619\404/index.html
+[2024-10-15 09:47:08] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-10-15 09:47:08] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-10-15 09:47:08] [class-ss-page.php:119] Checking Content Identical:2eddfaae5f70a6b3df5f478938a04696fd6e835f===. Value: FALSE
+[2024-10-15 09:47:08] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-10-15 09:47:08] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-10-15 09:47:08] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-10-15 09:47:08] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-10-15 09:47:08] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 47 of 47 files
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/about
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/services
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/contact
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/uploads/2021/07
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/uploads/2022/02
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/uploads/2022/02
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/uploads/2022/02
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/uploads/2022/02
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/uploads/2021/07
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/uploads/2021/07
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/uploads/2021/07
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/uploads/2021/07
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-includes/js/jquery
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-includes/js/jquery
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/themes/astra/assets/js/minified
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-includes/js/dist
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/uploads/uag-plugin/assets/1000
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/uploads/2021/07
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/uploads/2021/07
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/uploads/2021/07
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/uploads/2021/07
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/uploads/2021/07
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/uploads/2021/07
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/feed
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/comments/feed
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/themes/astra/assets/css/minified
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-includes/css/dist/block-library
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/uploads/uag-plugin/assets/1000
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/feed
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/uploads/2021/07
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/uploads/2021/07
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/uploads/2022/02
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dugas/wp-content/uploads/2021/07
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:47. Processed Pages: 47
+[2024-10-15 09:47:08] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 47 of 47 files
+[2024-10-15 09:47:08] [trait-can-process-pages.php:110] Total pages: 47; Pages remaining: 0
+[2024-10-15 09:47:08] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
+[2024-10-15 09:47:08] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://daltonbreedt.github.io/dugas/" target="_blank">https://daltonbreedt.github.io/dugas/</a>
+[2024-10-15 09:47:08] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-10-15 09:47:08] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-10-15 09:47:08] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-10-15 09:47:08] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-10-15 09:47:08] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-10-15 09:47:08] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-10-15 09:47:08] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-10-15 09:47:08] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:09
